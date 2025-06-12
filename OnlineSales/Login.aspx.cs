@@ -16,6 +16,9 @@ namespace RakuichiRakuza.OnlineSales
                 txtAcnt.Text = string.Empty;
                 txtPswd.Text = string.Empty;
             }
+            else {
+            // POSTバック処理
+            }
         }
     }
 }
