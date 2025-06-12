@@ -21,5 +21,9 @@ namespace RakuichiRakuza.OnlineSales
             // 同じファイルを変更してみる
             }
         }
+
+        protected void btnLogin_Click(object sender, EventArgs e)
+        {
+        }
     }
 }
