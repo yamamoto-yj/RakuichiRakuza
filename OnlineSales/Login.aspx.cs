@@ -11,7 +11,11 @@ namespace RakuichiRakuza.OnlineSales
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            // 初期化処理を行う
+            if (!IsPostBack) {
+                txtAcnt.Text = string.Empty;
+                txtPswd.Text = string.Empty;
+            }
         }
     }
 }
