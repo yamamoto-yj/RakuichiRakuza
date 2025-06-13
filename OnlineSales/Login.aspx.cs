@@ -17,8 +17,7 @@ namespace RakuichiRakuza.OnlineSales
                 txtPswd.Text = string.Empty;
             }
             else {
-                // マージ処理用の修正
-                txtAcnt.Text = "";
+                // ローカルの内容でマージした
             }
         }
 
