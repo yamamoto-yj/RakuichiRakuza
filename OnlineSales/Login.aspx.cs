@@ -17,10 +17,8 @@ namespace RakuichiRakuza.OnlineSales
                 txtPswd.Text = string.Empty;
             }
             else {
-                // POSTバック処理時の処理
-                txtAcnt.Text = "テスト";
-                // POSTバック処理時の処理
-                // 同じファイルを変更してみる
+                // マージ処理用の修正
+                txtAcnt.Text = "";
             }
         }
 
