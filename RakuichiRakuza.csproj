@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Css\login.css" />
     <Content Include="OnlineSales\Login.aspx" />
+    <Content Include="Sql\CreateTable.sql" />
     <Content Include="SystemManage\SystemLogin.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
