@@ -21,7 +21,7 @@
             <asp:Label ID="lblPswd" runat="server" Text="パスワード"></asp:Label>
             <asp:TextBox ID="txtPswd" runat="server" type="password"></asp:TextBox>
         </div>
-        <asp:Button ID="btnLogin" runat="server" Text="ログイン" class="login-button" />
+        <asp:Button ID="btnLogin" runat="server" Text="ログイン" class="login-button" OnClick="btnLogin_Click" />
     </form>
     </div>
 </body>

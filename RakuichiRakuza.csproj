@@ -68,13 +68,30 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Css\login.css" />
+    <Content Include="EmmployeeDetail.aspx" />
+    <Content Include="EmployeeList.aspx" />
     <Content Include="OnlineSales\Login.aspx" />
     <Content Include="Sql\CreateTable.sql" />
     <Content Include="Sql\StyleSheet1.css" />
+    <Content Include="Sql\test.txt" />
     <Content Include="SystemManage\SystemLogin.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EmmployeeDetail.aspx.cs">
+      <DependentUpon>EmmployeeDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmmployeeDetail.aspx.designer.cs">
+      <DependentUpon>EmmployeeDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeList.aspx.cs">
+      <DependentUpon>EmployeeList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmployeeList.aspx.designer.cs">
+      <DependentUpon>EmployeeList.aspx</DependentUpon>
+    </Compile>
     <Compile Include="OnlineSales\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
