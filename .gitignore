@@ -18,6 +18,7 @@ mono_crash.*
 
 # Build results
 Sql/
+Css/
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
@@ -364,3 +365,4 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /Sql/CreateTable.sql
+/Css/login.css
