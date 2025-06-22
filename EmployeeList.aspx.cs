@@ -15,6 +15,7 @@ namespace RakuichiRakuza
             if (IsPostBack == false)
             {
                 GridView1.Columns[5].HeaderText = @"姓カナ";
+                
                 // 幅設定
                 GridView1.Columns[5].HeaderStyle.Width = 200;
 
