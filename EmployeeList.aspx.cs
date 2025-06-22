@@ -17,6 +17,7 @@ namespace RakuichiRakuza
                 GridView1.Columns[5].HeaderText = @"姓カナ";
                 // 幅設定
                 GridView1.Columns[5].HeaderStyle.Width = 200;
+
                 // 表示位置
                 GridView1.Columns[5].HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
                 GridView1.Columns[5].HeaderStyle.BackColor = Color.DarkGray;
